@@ -10,13 +10,16 @@
     "test": "node ./test"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git://github.com/agraddy/agraddy.parse.excel.git"
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.parse.excel.git"
   },
   "bugs": {
-	  "url": "https://github.com/agraddy/agraddy.parse.excel/issues"
+    "url": "https://github.com/agraddy/agraddy.parse.excel/issues"
   },
   "devDependencies": {
-	  "agraddy.test.tap": "^0.2.0"
+    "agraddy.test.tap": "^0.2.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.8.1"
   }
 }
